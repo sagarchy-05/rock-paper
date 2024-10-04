@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 50px;
+  height: 100vh;
+}
+
+.choices {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.results-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.choice-display {
+  width: 30%;
+  text-align: center;
+}
+
+.result {
+  margin-top: 40px;
+}
+
+.result button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
